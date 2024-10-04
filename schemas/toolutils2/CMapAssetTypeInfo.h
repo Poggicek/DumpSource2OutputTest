@@ -1,0 +1,3 @@
+class CMapAssetTypeInfo : public CResourceAssetTypeInfo
+{
+};

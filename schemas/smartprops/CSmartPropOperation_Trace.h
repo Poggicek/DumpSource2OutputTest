@@ -1,0 +1,14 @@
+class CSmartPropOperation_Trace : public CSmartPropTransformOperation
+{
+	CSmartPropAttributeVector m_Origin;
+	CSmartPropAttributeCoordinateSpace m_OriginSpace;
+	CSmartPropAttributeFloat m_flOriginOffset;
+	CSmartPropAttributeFloat m_flSurfaceUpInfluence;
+	CSmartPropAttributeTraceNoHit m_nNoHitResult;
+	CSmartPropAttributeBool m_bIgnoreToolMaterials;
+	CSmartPropAttributeBool m_bIgnoreSky;
+	CSmartPropAttributeBool m_bIgnoreNoDraw;
+	CSmartPropAttributeBool m_bIgnoreTranslucent;
+	CSmartPropAttributeBool m_bIgnoreModels;
+	CSmartPropAttributeBool m_bIgnoreEntities;
+};

@@ -1,0 +1,3 @@
+class CSmartPropTransformOperation : public CSmartPropOperation
+{
+};

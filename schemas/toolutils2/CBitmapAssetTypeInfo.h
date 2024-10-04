@@ -1,0 +1,3 @@
+class CBitmapAssetTypeInfo : public CSimpleAssetTypeInfo
+{
+};

@@ -1,0 +1,9 @@
+class CSmartPropOperation_ComputeDistance3D : public CSmartPropOperation
+{
+	CUtlString m_OutputVariableName;
+	CSmartPropAttributeCoordinateSpace m_OutputCoordinateSpace;
+	CSmartPropAttributeVector m_InputPositionA;
+	CSmartPropAttributeCoordinateSpace m_CoordinateSpaceA;
+	CSmartPropAttributeVector m_InputPositionB;
+	CSmartPropAttributeCoordinateSpace m_CoordinateSpaceB;
+};

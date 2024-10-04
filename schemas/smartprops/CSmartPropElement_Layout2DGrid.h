@@ -1,0 +1,15 @@
+class CSmartPropElement_Layout2DGrid : public CSmartPropElement_Group
+{
+	CSmartPropAttributeFloat m_flWidth;
+	CSmartPropAttributeFloat m_flLength;
+	CSmartPropAttributeBool m_bVerticalLength;
+	CSmartPropAttributeGridPlacementMode m_GridArrangement;
+	CSmartPropAttributeGridOriginMode m_GridOriginMode;
+	CSmartPropAttributeInt m_nCountW;
+	CSmartPropAttributeInt m_nCountL;
+	CSmartPropAttributeFloat m_flSpacingWidth;
+	CSmartPropAttributeFloat m_flSpacingLength;
+	CSmartPropAttributeBool m_bAlternateShift;
+	CSmartPropAttributeFloat m_flAlternateShiftWidth;
+	CSmartPropAttributeFloat m_flAlternateShiftLength;
+};

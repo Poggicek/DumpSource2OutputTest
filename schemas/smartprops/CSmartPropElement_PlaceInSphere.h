@@ -1,0 +1,13 @@
+class CSmartPropElement_PlaceInSphere : public CSmartPropElement_Group
+{
+	CSmartPropAttributeRadiusPlacementMode m_PlacementMode;
+	CSmartPropAttributeDistributionMode m_DistributionMode;
+	CSmartPropAttributeFloat m_flRandomness;
+	CSmartPropAttributeVector m_vPlaneUpDirection;
+	CSmartPropAttributeInt m_nCountMin;
+	CSmartPropAttributeInt m_nCountMax;
+	CSmartPropAttributeFloat m_flPositionRadiusInner;
+	CSmartPropAttributeFloat m_flPositionRadiusOuter;
+	CSmartPropAttributeBool m_bAlignOrientation;
+	CSmartPropAttributeVector m_vAlignDirection;
+};

@@ -1,0 +1,3 @@
+class CSmartPropFilter : public CSmartPropModifier
+{
+};

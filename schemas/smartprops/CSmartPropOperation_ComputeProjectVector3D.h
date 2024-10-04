@@ -1,0 +1,10 @@
+class CSmartPropOperation_ComputeProjectVector3D : public CSmartPropOperation
+{
+	CUtlString m_OutputVariableName;
+	CSmartPropAttributeCoordinateSpace m_OutputCoordinateSpace;
+	CSmartPropAttributeVector m_InputVectorA;
+	CSmartPropAttributeCoordinateSpace m_CoordinateSpaceA;
+	CSmartPropAttributeVector m_InputVectorB;
+	CSmartPropAttributeCoordinateSpace m_CoordinateSpaceB;
+	CSmartPropAttributeBool m_bPlane;
+};

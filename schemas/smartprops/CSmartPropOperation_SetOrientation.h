@@ -1,0 +1,8 @@
+class CSmartPropOperation_SetOrientation : public CSmartPropTransformOperation
+{
+	CSmartPropAttributeVector m_vForwardVector;
+	CSmartPropAttributeCoordinateSpace m_ForwardDirectionSpace;
+	CSmartPropAttributeVector m_vUpVector;
+	CSmartPropAttributeCoordinateSpace m_UpDirectionSpace;
+	CSmartPropAttributeBool m_bPrioritizeUp;
+};

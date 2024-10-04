@@ -1,0 +1,5 @@
+class CSmartPropMaterialReplacement
+{
+	CSmartPropAttributeMaterialName m_OriginalMaterial;
+	CSmartPropAttributeMaterialName m_ReplacementMaterial;
+};

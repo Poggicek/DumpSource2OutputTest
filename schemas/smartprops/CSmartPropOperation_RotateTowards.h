@@ -1,0 +1,10 @@
+class CSmartPropOperation_RotateTowards : public CSmartPropTransformOperation
+{
+	CSmartPropAttributeVector m_vOriginPos;
+	CSmartPropAttributeVector m_vTargetPos;
+	CSmartPropAttributeVector m_vUpPos;
+	CSmartPropAttributeFloat m_flWeight;
+	CSmartPropAttributeCoordinateSpace m_OriginSpace;
+	CSmartPropAttributeCoordinateSpace m_TargetSpace;
+	CSmartPropAttributeCoordinateSpace m_UpSpace;
+};
