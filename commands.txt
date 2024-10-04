@@ -273,7 +273,7 @@ bugvoice_save (developmentonly dontrecord defensive)
 buildcubemaps (developmentonly clientdll defensive)
 	Build Cubemaps
 
-buildsparseshadowtree (developmentonly clientdll defensive)
+buildsparseshadowtree (developmentonly clientdll hidden)
 	Build Sparse Shadow Tree
 
 button_info (release)
